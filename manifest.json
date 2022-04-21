@@ -34,11 +34,6 @@
       "run_at": "document_end",
       "matches": ["https://lionel2.kgv.edu.hk/login/index.php*"],
       "js": ["login.js"]
-    },
-    {
-      "run_at": "document_end",
-      "matches": ["http://127.0.0.1:5500/index.html"],
-      "js": ["tester.js"]
     }
   ],
   "options_page": "options.html"
