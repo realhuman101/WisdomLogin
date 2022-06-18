@@ -1,7 +1,7 @@
 {
   "name": "LionelLogin",
   "description": "Auto-login to Lionel2 - More information here: https://bit.ly/370jL6J",
-  "version": "6.5.5",
+  "version": "7.0.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
@@ -28,12 +28,17 @@
     }
   },
   "permissions": ["storage", "activeTab", "scripting", "tabs", "webRequest"],
-  "host_permissions": ["https://lionel2.kgv.edu.hk/login/index.php"],
+  "host_permissions": ["https://lionel2.kgv.edu.hk/"],
   "content_scripts": [
     {
       "run_at": "document_end",
       "matches": ["https://lionel2.kgv.edu.hk/login/index.php*"],
       "js": ["login.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": ["https://lionel2.kgv.edu.hk/"],
+      "js": ["session.js"]
     }
   ],
   "options_page": "options.html"
