@@ -1,0 +1,88 @@
+#mainTitle h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.settingsSection {
+    padding: 12px 20px;
+}
+
+.showPass .viewContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.showPass .viewContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.showPass .viewCheckmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.showPass .viewContainer:hover input ~ .viewCheckmark {
+    background-color: #ccc;
+}
+
+.showPass .viewContainer input:checked ~ .viewCheckmark {
+    background-color: #2196F3;
+}
+
+.showPass .viewCheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.showPass .viewContainer input:checked ~ .viewCheckmark:after {
+    display: block;
+}
+
+.showPass .viewContainer .viewCheckmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+  
+.showPass {
+    padding-bottom: 10px;
+    text-align: left;
+    margin: auto;
+    vertical-align: bottom;
+}
+
+.acceptBtn {
+    background-color: #2196F3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.acceptBtn:hover {
+    opacity: .8;
+}

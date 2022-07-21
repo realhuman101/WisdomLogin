@@ -3,8 +3,11 @@
   <head>
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="options.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Options - LionelLogin</title>
   </head>
   <body>
+    <i class="fa-solid fa-circle-user userIcon" id="account"></i>
     <div class="login" id="login">
       <form method="post" class="options">   
         <div class="container">
@@ -17,7 +20,7 @@
               <span class="viewCheckmark"></span>
             </label>
           </div>
-          <button class="acceptBtn" id="submit" type="submit">Accept Password</button>
+          <button class="acceptBtn" id="submit">Accept Password</button>
         </div>
       </form>
     </div>
@@ -36,6 +39,14 @@
       <hr>
       <input id="username" type="text" placeholder="Enter Username" name="psw">
       <button class="acceptBtn" id="subUser" type="submit">Accept Username</button>
+    </div>
+    <div id="checkPasswordPopup" style="display: none">
+      <div id="checkPassword">
+        <h1>Verify User</h1>
+        <hr>
+        <input id="passwordCheck" type="password" placeholder="Local Account Password">
+        <button id="passwordCheckSubmit">Verify</button>
+      </div>
     </div>
   </body>
   <script src="options.js"></script>

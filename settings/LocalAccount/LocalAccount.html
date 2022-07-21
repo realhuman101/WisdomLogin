@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/login.css">
+        <link rel="stylesheet" href="LocalAccount.css">
+        <title>Local Account - LionelLogin</title>
+    </head>
+    <body>
+        <div id="mainTitle">
+            <h1>Local Account Settings</h1>
+            <hr>
+        </div>
+        <div id="passwordLock" class="settingsSection">
+            <h2>Password-Locked Settings</h2>
+            <hr>
+            <div class="container">
+                <form id="passwordForm">
+                    <input id="password" type="password" placeholder="Enter Password" name="psw" minlength="3" maxlength="25" required>
+                    <div class="showPass">
+                        <label class="viewContainer">
+                            <input name="viewPass" class="viewPass" type="checkbox">Show Password
+                            <span class="viewCheckmark"></span>
+                        </label>
+                    </div>
+                    <input class="acceptBtn" id="submit" type="submit" value="Enter Password">
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="LocalAccount.js"></script>
+</html>

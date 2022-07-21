@@ -101,14 +101,25 @@ lockbox.addEventListener('change', (event) => {
       if (!(typeof result.pass === 'undefined')) {
         chrome.storage.sync.set({'locked': true});
         changeCheckbox(true);
+        reloadPage();
       } else {
         chrome.storage.sync.set({'locked': false});
         changeCheckbox(false);
+        reloadPage();
       }
     });
   } else {
-    chrome.storage.sync.set({'locked': false});
-    changeCheckbox(false);
+    chrome.storage.sync.get('accPassword', function(result) {
+      if (typeof result.accPassword === 'undefined') {
+        chrome.storage.sync.set({'locked': false});
+        changeCheckbox(false);
+        reloadPage();
+      } else {
+        checkPasswordLock();
+        chrome.storage.sync.set({'locked': true});
+        changeCheckbox(true);
+      }
+    });
   }
 })
 
@@ -118,8 +129,36 @@ function changeCheckbox(value) {
   checkLock.checked = value;
 }
 
-document.getElementById("lockPassword").addEventListener("click", reloadPage);
-
 function reloadPage() {
-  location.reload()
+  location.reload();
 }
+
+window.addEventListener("click", function(e) {
+  if (document.getElementById('checkPasswordPopup').style.display == 'block') {
+    if (document.getElementById('checkPasswordPopup') == e.target){
+      document.getElementById('checkPasswordPopup').style.display = 'none';
+    }
+  }
+});
+
+document.getElementById("account").addEventListener("click", function () {
+  location.href = "settings/LocalAccount/LocalAccount.html";
+});
+
+function checkPasswordLock() {
+  document.getElementById("checkPasswordPopup").style.display = "block";
+}
+
+document.getElementById("passwordCheckSubmit").addEventListener("click", function () {
+  var password = document.getElementById("passwordCheck").value;
+  chrome.storage.sync.get('accPassword', function (result) {
+    if (result.accPassword == password) {
+      chrome.storage.sync.set({'locked': false});
+      changeCheckbox(false);
+      reloadPage();
+    } else {
+      alert("Error - Wrong Password");
+      reloadPage();
+    }
+  });
+});
