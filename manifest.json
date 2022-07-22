@@ -1,7 +1,7 @@
 {
   "name": "LionelLogin",
   "description": "Auto-login to Lionel2 - More information here: https://bit.ly/370jL6J",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
