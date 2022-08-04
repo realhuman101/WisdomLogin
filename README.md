@@ -1,5 +1,6 @@
 # LionelLogin
-Essentially a quick password manager for Lionel2, with the added feature of directly signing in instantly upon loading the sign-in page of Lionel2.  
+Essentially a quick password manager/web browser extension for Lionel2, with the added feature of directly signing in instantly upon loading the sign-in page of Lionel2.  
+Most information about this project can be found [here](https://bit.ly/370jL6J)
 
 ## Installation
 ### Direct Download
