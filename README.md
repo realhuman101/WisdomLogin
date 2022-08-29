@@ -31,10 +31,10 @@ If you locate any bugs or dangerous glitches, please report them by creating a n
 
 ## Installation
 There are two methods of installation, either through [Git](https://github.com/realhuman101/LionelLogin#download-with-git) or by downloading the compressed file from [Google Drive](https://github.com/realhuman101/LionelLogin#direct-download).  
-The recommended method for installation would be to simply follow the instructions at [LionelLogin Instructions - Installation](https://docs.google.com/presentation/d/1VIXn9FJb83H6CQwr-JYIFJgz-z2UQoDg9Y4QCHWtGL0/edit?usp=sharing). 
+The recommended method for installation would be to simply follow the instructions at [LionelLogin Instructions - Chrome Direct Installation](https://github.com/realhuman101/projectDocs/tree/master/LionelLogin/installation/chrome/direct#lionellogin---chrome-direct-installation-instructions). 
 
 ### Direct Download
-To download the files directly, visit [this Google Drive folder](https://drive.google.com/drive/folders/1ALK145-sYK2wC3_ZUd23aYMAhC6JSG3O?usp=sharing), select on either `LionelLogin` or `LionelLogin - Firefox` depending of the version you wish to install, right-click the version you wish to install, and download the folder/file. *Please note that version `1.0.0` of the LionelLogin extension *(for Chrome)* is no longer made publicly accessible due to **dangerous security flaws***
+To download the files directly, visit [this Google Drive folder](https://drive.google.com/drive/folders/1ALK145-sYK2wC3_ZUd23aYMAhC6JSG3O?usp=sharing), select on either `LionelLogin` or `LionelLogin - Firefox` depending of the version you wish to install, right-click the version you wish to install, and download the folder/file. *Please note that version `1.0.0` of the LionelLogin extension *(for Chrome)* is no longer made publicly accessible due to **dangerous security flaws***. For a more detailed tutorial on installation, feel free to look through the tutorial [here](https://github.com/realhuman101/projectDocs/tree/master/LionelLogin/installation/chrome/direct#lionellogin---chrome-direct-installation-instructions)
 ### Download with Git
 Run the command `git clone https://github.com/realhuman101/LionelLogin.git`
 
