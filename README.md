@@ -1,6 +1,16 @@
 # LionelLogin
 Essentially a quick password manager as a web browser extension *(works on Chrome and Firefox)* for [Lionel2](lionel2.kgv.edu.hk/), with the added feature of directly signing in instantly upon loading the sign-in page of [Lionel2](lionel2.kgv.edu.hk/).  
 
+## Contents
+- [What it does](#what-it-does)
+- [How it Works](#how-it-works)
+- [Safety Concerns](#safety-concerns)
+- [Bugs](#bugs)
+- [Installation](#installation)
+	- [Direct Download](#direct-download)
+	- [Download with Git](#download-with-git)
+- [Browser Information](#browser-information)
+
 ## What it Does
 LionelLogin will automatically login to [Lionel2](lionel2.kgv.edu.hk/), given that you have inputted your credentials into its password manager, which is safely stored on [Chrome’s storage API](https://developer.chrome.com/docs/extensions/reference/storage/) or *(for Firefox users)* within the [browser's storage API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage). It will also be automatically sent to all devices already synced to your browser's account.  
   
@@ -24,13 +34,9 @@ There are two methods of installation, either through [Git](https://github.com/r
 The recommended method for installation would be to simply follow the instructions at [LionelLogin Instructions - Installation](https://docs.google.com/presentation/d/1VIXn9FJb83H6CQwr-JYIFJgz-z2UQoDg9Y4QCHWtGL0/edit?usp=sharing). 
 
 ### Direct Download
-To download the files directly, visit [this Google Drive folder](https://drive.google.com/drive/folders/1ALK145-sYK2wC3_ZUd23aYMAhC6JSG3O?usp=sharing), select on either `LionelLogin` or `LionelLogin - Firefox` depending of the version you wish to install, right-click the version you wish to install, and download the folder/file.
+To download the files directly, visit [this Google Drive folder](https://drive.google.com/drive/folders/1ALK145-sYK2wC3_ZUd23aYMAhC6JSG3O?usp=sharing), select on either `LionelLogin` or `LionelLogin - Firefox` depending of the version you wish to install, right-click the version you wish to install, and download the folder/file. *Please note that version `1.0.0` of the LionelLogin extension *(for Chrome)* is no longer made publicly accessible due to **dangerous security flaws***
 ### Download with Git
 Run the command `git clone https://github.com/realhuman101/LionelLogin.git`
 
 ## Browser Information
 Currently only two browsers have been tested and work with LionelLogin, Chrome *(best support)* and Firefox.
-
-***
-
-> Please note that version `1.0.0` of the LionelLogin extension *(for Chrome)* is no longer made publicly accessible due to **dangerous security flaws**
