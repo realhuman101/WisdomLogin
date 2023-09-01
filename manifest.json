@@ -1,6 +1,6 @@
 {
   "name": "WisdomLogin",
-  "description": "Auto-login to Wisdom - More information here: https://bit.ly/370jL6J",
+  "description": "Auto-login to Wisdom - More information here: https://github.com/realhuman101/WisdomLogin#wisdomlogin",
   "version": "7.1.1",
   "manifest_version": 3,
   "background": {
