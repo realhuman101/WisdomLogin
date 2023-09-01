@@ -1,38 +1,38 @@
 {
-  "name": "LionelLogin",
-  "description": "Auto-login to Lionel2 - More information here: https://bit.ly/370jL6J",
+  "name": "WisdomLogin",
+  "description": "Auto-login to Wisdom - More information here: https://bit.ly/370jL6J",
   "version": "7.1.1",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
   "icons": {
-    "16": "/images/lionelicon16.png",
-    "32": "/images/lionelicon32.png",
-    "45": "/images/lionelicon45.png",
-    "48": "/images/lionelicon48.png",
-    "64": "/images/lionelicon64.png",
-    "128": "/images/lionelicon128.png",
-    "180": "/images/lionelicon180.png"
+    "16": "/images/Wisdomicon16.png",
+    "32": "/images/Wisdomicon32.png",
+    "45": "/images/Wisdomicon45.png",
+    "48": "/images/Wisdomicon48.png",
+    "64": "/images/Wisdomicon64.png",
+    "128": "/images/Wisdomicon128.png",
+    "180": "/images/Wisdomicon180.png"
   },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/lionelicon16.png",
-      "32": "/images/lionelicon32.png",
-      "45": "/images/lionelicon45.png",
-      "48": "/images/lionelicon48.png",
-      "64": "/images/lionelicon64.png",
-      "128": "/images/lionelicon128.png",
-      "180": "/images/lionelicon180.png"
+      "16": "/images/Wisdomicon16.png",
+      "32": "/images/Wisdomicon32.png",
+      "45": "/images/Wisdomicon45.png",
+      "48": "/images/Wisdomicon48.png",
+      "64": "/images/Wisdomicon64.png",
+      "128": "/images/Wisdomicon128.png",
+      "180": "/images/Wisdomicon180.png"
     }
   },
   "permissions": ["storage", "activeTab", "scripting", "tabs", "webRequest"],
-  "host_permissions": ["https://lionel2.kgv.edu.hk/"],
+  "host_permissions": ["https://wisdom.wis.edu.hk/"],
   "content_scripts": [
     {
       "run_at": "document_end",
-      "matches": ["https://lionel2.kgv.edu.hk/login/index.php*"],
+      "matches": ["https://wisdom.wis.edu.hk/login/index.php*"],
       "js": ["login.js"]
     }
   ],
