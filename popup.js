@@ -13,6 +13,12 @@ chrome.storage.sync.get(['pass'], function(result) {
   }
 });
 
+chrome.storage.sync.get(['user'], function(result) {
+  if (!(typeof result.user === 'undefined')) {
+    document.getElementById('username').value = result.user;
+  }
+});
+
 document.getElementById("submit").addEventListener("click", submit);
 
 function submit() {
