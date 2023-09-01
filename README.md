@@ -42,7 +42,6 @@ If you locate any bugs or dangerous glitches, please report them by creating a n
 
 ## Installation
 
-There are two methods of installation, either through [Git](https://github.com/realhuman101/WisdomLogin#download-with-git) or by downloading the compressed file from [Google Drive](https://github.com/realhuman101/WisdomLogin#direct-download).  
 The recommended method for installation would be to simply follow the instructions at [WisdomLogin Instructions - Chrome Direct Installation](https://github.com/realhuman101/projectDocs/tree/master/LionelLogin/installation/chrome/direct#lionellogin---chrome-direct-installation-instructions).
 
 ### Download with Git
