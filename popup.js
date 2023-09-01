@@ -17,12 +17,10 @@ document.getElementById("submit").addEventListener("click", submit);
 
 function submit() {
   let password = document.getElementById("password").value;
+  let username = document.getElementById("username").value;
 
   chrome.storage.sync.set({'pass': password});
-  
-  chrome.storage.sync.get(['pass'], function(result) {
-    console.log(result.pass);
-  });
+  chrome.storage.sync.set({'user': username});
 }
 
 document.getElementById("goOptions").addEventListener("click", openOptions);
