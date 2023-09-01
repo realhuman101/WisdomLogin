@@ -1,5 +1,7 @@
 # WisdomLogin
 
+> Clone of [LionelLogin](https://github.com/realhuman101/LionelLogin)
+
 Essentially a quick password manager as a web browser extension *(works on Chrome and Firefox)* for [Wisdom](https://wisdom.wis.edu.hk/), with the added feature of directly signing in instantly upon loading the sign-in page of [Wisdom](https://wisdom.wis.edu.hk/).  
 
 ## Contents
