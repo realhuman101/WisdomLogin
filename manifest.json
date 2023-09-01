@@ -7,24 +7,24 @@
     "service_worker": "background.js"
   },
   "icons": {
-    "16": "/images/Wisdomicon16.png",
-    "32": "/images/Wisdomicon32.png",
-    "45": "/images/Wisdomicon45.png",
-    "48": "/images/Wisdomicon48.png",
-    "64": "/images/Wisdomicon64.png",
-    "128": "/images/Wisdomicon128.png",
-    "180": "/images/Wisdomicon180.png"
+    "16": "/images/wisdomlogo.png",
+    "32": "/images/wisdomlogo.png",
+    "45": "/images/wisdomlogo.png",
+    "48": "/images/wisdomlogo.png",
+    "64": "/images/wisdomlogo.png",
+    "128": "/images/wisdomlogo.png",
+    "180": "/images/wisdomlogo.png"
   },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/Wisdomicon16.png",
-      "32": "/images/Wisdomicon32.png",
-      "45": "/images/Wisdomicon45.png",
-      "48": "/images/Wisdomicon48.png",
-      "64": "/images/Wisdomicon64.png",
-      "128": "/images/Wisdomicon128.png",
-      "180": "/images/Wisdomicon180.png"
+      "16": "/images/wisdomlogo.png",
+      "32": "/images/wisdomlogo.png",
+      "45": "/images/wisdomlogo.png",
+      "48": "/images/wisdomlogo.png",
+      "64": "/images/wisdomlogo.png",
+      "128": "/images/wisdomlogo.png",
+      "180": "/images/wisdomlogo.png"
     }
   },
   "permissions": ["storage", "activeTab", "scripting", "tabs", "webRequest"],
