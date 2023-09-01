@@ -24,6 +24,8 @@ WisdomLogin will automatically login to [Wisdom](wisdom.wis.edu.hk/), given that
 
 ## How it Works
 
+> Please note that all instructional links will be relocated later on, and will (for now) be related to LionelLogin instead of WisdomLogin. Please still follow these instructions as they are the same for both extensions.
+
 If you need instructions on how to install the WisdomLogin extension, look at [WisdomLogin Instructions - Installation](https://docs.google.com/presentation/d/1VIXn9FJb83H6CQwr-JYIFJgz-z2UQoDg9Y4QCHWtGL0/edit?usp=sharing).  
 If you want a better understanding of how to use the WisdomLogin extension/want to use its extra features, look at [WisdomLogin Instructions - Extra Steps](https://docs.google.com/presentation/d/1zxJBjksXeMD_YpHr4Lra-ENlIJDXK2RNx7RqnclwwDQ/edit?usp=sharing).
 
